@@ -24,6 +24,11 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="NuGet.PackageManagement" />
+    <None Remove="Models\Persistence\Configurations\" />
+    <None Remove="Views\Shop\" />
+    <None Remove="Views\Blogs\" />
+    <None Remove="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\" />
@@ -44,12 +49,20 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="Models\Entities\" />
     <Folder Include="Models\Persistence\" />
+    <Folder Include="Models\Persistence\Configurations\" />
+    <Folder Include="wwwroot\cdn.shopify.com\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\Shop\" />
+    <Folder Include="Views\Blogs\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\admin\" />
     <Content Remove="wwwroot\admin\extra-pages\" />
     <Content Remove="wwwroot\admin\assets\" />
+    <Content Remove="wwwroot\cdn.shopify.com\" />
+    <Content Remove="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\admin\bower_components\animate.css\animate.css" />
@@ -242,5 +255,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+    <PackageReference Include="NuGet.PackageManagement" Version="6.7.0" />
   </ItemGroup>
 </Project>

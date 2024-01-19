@@ -1,0 +1,24 @@
+﻿.single-blog .blog-img > a > img {
+    height: 220px;
+    object-fit: fill;
+}
+
+.blog-content-upper {
+    padding: 30px 0 10px 0;
+}
+
+    .blog-content-upper > h6 {
+        max-width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .blog-content-upper > p {
+        text-align: justify;
+        min-height: 129px;
+    }
+
+.blog-body {
+    text-align: justify;
+}

@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.21, )"
+            },
+            "NuGet.PackageManagement": {
+              "target": "Package",
+              "version": "[6.7.0, )"
             }
           },
           "imports": [

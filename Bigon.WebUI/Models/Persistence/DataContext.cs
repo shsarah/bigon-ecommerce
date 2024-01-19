@@ -1,4 +1,5 @@
 ﻿using System;
+using Bigon.WebUI.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bigon.WebUI.Models.Persistence
@@ -9,6 +10,14 @@ namespace Bigon.WebUI.Models.Persistence
 			:base(options)
 		{
 		}
-	}
+
+		public DbSet<Size> Sizes { get; set; }
+
+        public DbSet<Color> Colors { get; set; }
+
+        public DbSet<Material> Materials { get; set; }
+
+        public DbSet<Brand> Brands { get; set; }
+    }
 }
 
