@@ -1,0 +1,50 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{54B6FC8D-3E94-4017-86B1-27979B9FBA7C}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bigon.WebUI/Program.cs">
+    <Files>
+      <File FileName="Bigon.WebUI/Models/Persistence/DataContext.cs" />
+      <File FileName="Bigon.WebUI/Program.cs" Line="1" Column="1" />
+      <File FileName="Bigon.WebUI/appsettings.json" Line="10" Column="132" />
+      <File FileName="Bigon.WebUI/Models/Entities/Size.cs" />
+      <File FileName="Bigon.WebUI/Models/Entities/Color.cs" />
+      <File FileName="Bigon.WebUI/Models/Entities/Commons/AuditableEntity.cs" />
+      <File FileName="Bigon.WebUI/Models/Entities/Commons/BaseEntity.cs" />
+      <File FileName="Bigon.WebUI/Migrations/20231002182950_CreateSizesAndColors.cs" />
+      <File FileName="Bigon.WebUI/Models/Entities/Material.cs" />
+      <File FileName="Bigon.WebUI/Migrations/20231002183815_CreateMaterial.cs" />
+      <File FileName="Bigon.WebUI/Models/Entities/Brand.cs" />
+      <File FileName="Bigon.WebUI/Migrations/20231002184203_CreateBrand.cs" />
+      <File FileName="Bigon.WebUI/Models/Persistence/Configurations/SizeEntityConfiguration.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BigonSolution" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="Bigon.WebUI" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Entities" expanded="True">
+                  <Node name="Commons" expanded="True" />
+                </Node>
+                <Node name="Persistence" expanded="True">
+                  <Node name="Configurations" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="admin" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Bigon.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
